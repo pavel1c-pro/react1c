@@ -1,0 +1,95 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.list-tasks {
+  background-color: #DCDCDC;
+  width: 700px;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.task {
+  background-color: #fff;
+  padding: 12px 22px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task:last-child {
+  margin-bottom: 0;
+}
+
+.task-name-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.task-name {
+  font-weight: bold;
+  font-size: 18px
+}
+
+.task-name.task-name-completed {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.task-date {
+  color: #808080;
+}
+
+.icons {
+  display: flex;
+}
+
+.buttons {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  height: 40px;
+  border-radius: 6px;
+  background-color: #7B68EE;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-Size: 18px;
+}
+
+.button.button-close {
+  margin-right: 20px;
+  background-color: #ccc;
+  color: #777;
+}
+
+.button.button-close:active {
+  background-color: #aaa;
+}
+
+.select {
+  width: 200px;
+  border-radius: 6px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  background-color: #7B68AA;
+}
